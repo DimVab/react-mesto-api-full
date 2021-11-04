@@ -1,0 +1,14 @@
+.form__input-container {
+  min-height: 57px;
+}
+
+.form__input-container:last-of-type {
+  min-height: 70.6px;
+  margin-bottom: 14.4px;
+}
+
+@media screen and (max-width: 620px) {
+  .form__input-container:last-of-type {
+    margin-bottom: 11.4px;
+  }
+}

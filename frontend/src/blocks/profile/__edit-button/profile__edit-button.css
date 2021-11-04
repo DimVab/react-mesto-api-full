@@ -1,0 +1,28 @@
+.profile__edit-button {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  background-color: black;
+  border: 1px solid #FFF;
+  grid-area: edit-button;
+  align-self: center;
+  background-image: url(../../../images/icons/edit-button.svg);
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 7px; /* такой костыль, тк в макете буква "У" слова "Кусто" выходит за рамку блока, а в вёрстке нижняя граница по букве "У" */
+  transition: opacity .5s;
+}
+
+.profile__edit-button:hover {
+  opacity: .6;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 620px) {
+  .profile__edit-button {
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+  }
+}

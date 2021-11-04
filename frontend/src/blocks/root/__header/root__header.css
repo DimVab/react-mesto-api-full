@@ -1,0 +1,15 @@
+.root__header {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .root__header {
+    margin: 0 auto 40px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .header {
+    margin-bottom: 42px;
+  }
+}

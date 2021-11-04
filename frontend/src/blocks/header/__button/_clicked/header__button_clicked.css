@@ -1,0 +1,6 @@
+.header__button_clicked {
+  background-image: url(../../../../images/icons/close-Icon.svg);
+  height: 20px;
+  width: 20px;
+  margin-bottom: 30.5px;
+}

@@ -1,0 +1,11 @@
+.profile__container {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 620px) {
+  .profile__container {
+    margin: 0 auto 32px; /* в макете расстояние 36px, но по PixelPerfect подходит 32px  */
+    flex-direction: column;
+  }
+}

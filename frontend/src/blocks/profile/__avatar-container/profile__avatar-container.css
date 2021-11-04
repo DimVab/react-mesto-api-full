@@ -1,0 +1,4 @@
+.profile__avatar-container {
+  display: flex;
+  position: relative;
+}

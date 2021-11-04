@@ -1,0 +1,29 @@
+.header__button {
+  display: none;
+  transition: opacity .5s;
+}
+
+.header__button:hover {
+  opacity: .6;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 620px) {
+  .header__button {
+    align-self: flex-end;
+    width: 23px;
+    height: 20.5px;
+    background-image: url(../../../images/icons/hamburger.svg);
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0 calc((100vw - 282px)/2) 29px 0;
+  }
+}
+
+@media screen and (max-width: 332px) {
+  .header__button {
+    margin-right: 30px;
+  }
+}

@@ -1,0 +1,20 @@
+.profile__avatar-edit-icon {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  display: block;
+  width: 120px;
+  height: 120px;
+  border: 0;
+  padding: 0;
+  background-image: url(../../../images/icons/edit-icon.svg);
+  background-color: transparent;
+  background-size: 26px 26px;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: visibility .5s, opacity .5s;
+}
+
+.profile__avatar-edit-icon:hover {
+  cursor: pointer;
+}

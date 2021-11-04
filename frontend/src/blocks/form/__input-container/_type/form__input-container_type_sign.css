@@ -1,0 +1,9 @@
+.form__input-container_type_sign:last-of-type {
+  margin-bottom: 198px;
+}
+
+@media screen and (max-width: 620px) {
+  .form__input-container_type_sign:last-of-type {
+    margin-bottom: 156px;
+  }
+}

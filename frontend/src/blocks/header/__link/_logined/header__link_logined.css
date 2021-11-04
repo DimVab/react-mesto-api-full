@@ -1,0 +1,10 @@
+.header__link_logined {
+  color: #A9A9A9;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+.header__link_logined:hover {
+  opacity: 1;
+}

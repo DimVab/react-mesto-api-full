@@ -1,0 +1,15 @@
+.main__profile {
+  margin-bottom: 51px;
+}
+
+@media screen and (max-width: 1024px) {
+  .profile {
+    margin: 0 calc((100vw - 581px)/2) 51px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .main__profile {
+    margin: 0 calc((100vw - 282px)/2) 36px;
+  }
+}

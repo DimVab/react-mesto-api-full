@@ -1,0 +1,15 @@
+.main__elements {
+  margin: 0 auto 66px;
+}
+
+@media screen and (max-width: 1024px) {
+  .main__elements {
+    margin: 0 calc((100% - 581px)/2) 66px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .main__elements {
+    margin: 0 calc((100% - 282px)/2) 48px;
+  }
+}
