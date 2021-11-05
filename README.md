@@ -42,6 +42,7 @@ Back-end:
 * Express.js;
 * MongoDB;
 * Mongoose;
+* Nginx;
 * nodemon - для запуска в режиме разработки;
 * модуль validator - для валидации email;
 * модуль bcryptjs - для хеширования пароля;
@@ -50,7 +51,8 @@ Back-end:
 * cookies - для хранения токена на стороне клиента;
 * регулярные выражения;
 * winston, express-winston - для логирования;
-* dotenv - для подключения .env-файла.
+* dotenv - для подключения .env-файла;
+* cerbot - для подключения сертификата безопасности https;
 
 ### Другие особенности
 1. Для работы с макетом использовался инструмент **Figma**
@@ -71,14 +73,14 @@ Back-end:
 
 ## Запуск проекта
 
-`npm start` - запускает фронтэнд-часть  
-`npm run start` — запускает сервер  
-`npm run dev` — запускает сервер с hot-reload  
+`npm start` - запускает фронтэнд-часть
+`npm run start` — запускает сервер
+`npm run dev` — запускает сервер с hot-reload
 
-**Ссылки на приложение:**  
-Для обращения к серверу:  
-http://178.154.223.80  
-http://api.mesto.vab.nomoredomains.rocks  
-Для обращения к сайту:  
-http://mesto.vab.nomoredomains.rocks  
-https://mesto.vab.nomoredomains.rocks  
+**Ссылки на приложение:**
+Для обращения к серверу:
+http://178.154.223.80
+http://api.mesto.vab.nomoredomains.rocks
+Для обращения к сайту:
+http://mesto.vab.nomoredomains.rocks
+https://mesto.vab.nomoredomains.rocks
