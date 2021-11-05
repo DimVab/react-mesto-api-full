@@ -61,17 +61,8 @@ class Auth {
   }
 }
 
-let actualUrl;
-
-if (window.location.protocol === "https:") {
-  actualUrl = 'https://api.mesto.vab.nomoredomains.rocks';
-}
-if (window.location.protocol === "http:") {
-  actualUrl = 'http://api.mesto.vab.nomoredomains.rocks';
-}
-
 const auth = new Auth ({
-  baseUrl: actualUrl,
+  baseUrl: 'https://api.mesto.vab.nomoredomains.rocks',
   headers: {
     'Content-Type': 'application/json'
   }
